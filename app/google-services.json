@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "79330086252",
+    "project_id": "white-label-a3bd6",
+    "storage_bucket": "white-label-a3bd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79330086252:android:ad50f0adacaedaa6213749",
+        "android_client_info": {
+          "package_name": "br.com.jamerson.whitelabeltutorial.bike"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5AAHRgYDshuPx4nLu67DEgZeAyiTsy4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79330086252:android:1c415c99a5159acc213749",
+        "android_client_info": {
+          "package_name": "br.com.jamerson.whitelabeltutorial.bike.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5AAHRgYDshuPx4nLu67DEgZeAyiTsy4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79330086252:android:55bfd317214d4cc8213749",
+        "android_client_info": {
+          "package_name": "br.com.jamerson.whitelabeltutorial.car"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5AAHRgYDshuPx4nLu67DEgZeAyiTsy4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79330086252:android:43c2f41d5a738d09213749",
+        "android_client_info": {
+          "package_name": "br.com.jamerson.whitelabeltutorial.car.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5AAHRgYDshuPx4nLu67DEgZeAyiTsy4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

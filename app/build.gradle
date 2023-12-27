@@ -8,13 +8,13 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-parcelize'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "br.com.douglasmotta.whitelabeltutorial"
+        applicationId "br.com.jamerson.whitelabeltutorial"
         minSdkVersion 21
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
 
@@ -43,11 +43,13 @@ android {
             dimension 'product'
             applicationIdSuffix '.bike'
             manifestPlaceholders.appName="Bike"
+            buildConfigField "String","FIREBASE_FLAVOR_COLLECTION", "\"bike\""
         }
         car{
             dimension 'product'
             applicationIdSuffix '.car'
             manifestPlaceholders.appName="Car"
+            buildConfigField "String","FIREBASE_FLAVOR_COLLECTION", "\"car\""
         }
         client{
             dimension 'side'
@@ -106,3 +108,4 @@ kapt {
         option("-Adagger.hilt.android.internal.disableAndroidSuperclassValidation=true")
     }
 }
+apply plugin: 'com.google.gms.google-services'
